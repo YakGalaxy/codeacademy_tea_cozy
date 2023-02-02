@@ -1,0 +1,197 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    box-sizing: content-box;
+    text-align: center;
+    opacity: 0.9;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+
+/*header*/
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    max-height: 69px;
+    display: flex;
+    z-index: 9999;
+    opacity: 1;
+}
+
+.header ul,li {
+    text-decoration: underline;
+    display: inline;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.header img {
+    margin-left: 10px;
+    max-height: 50px;
+    padding-top: 9px;
+}
+
+.nav-left {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav-right {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+/*hero*/
+
+.hero {
+    background-image: url(/resources/img-mission-background.jpg);
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}  
+
+.hero img {
+
+}
+
+.hero-banner {
+    flex-grow: 1;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.hero-banner-topline {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.hero-banner-bottomline {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/*Tea of the Month section*/
+
+.image-gallery {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto; 
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.image-gallery-image, .image-gallery-image-row2 {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.image-gallery-image img, .image-gallery-image-row2 img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+h4 {
+    margin: 10px 10px;
+}
+
+/*Locations*/
+
+.locations {
+    background-image: url(/resources/img-locations-background.webp);
+    max-width: 1200px;
+    min-height: 500px;
+    background-position: center;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.locations-title {
+    flex-grow: 1;
+    flex-basis: inherit;
+    background-color: transparent;
+}
+
+.locations-title h2 {
+    background-color: transparent;
+}
+
+.location-card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    opacity: 1;
+}
+
+.location-card p {
+    line-height: 2.5;
+}
+
+.spacer {
+    flex-grow: 1;
+    flex-basis: 100%;
+    background-color: transparent;
+    min-height: 25%;
+}
+
+#location-spacer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+/*footer*/
+
+footer {
+}
+
+.footer-container {
+    height: 200px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.copyright {
+    text-align: left;
+}
